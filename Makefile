@@ -7,10 +7,10 @@ LDFLAG = -lsystemd
 default: journal_logger
 
 journal_logger: journal_logger.o
-	gcc journal_logger.o $(LDFLAG) -o journal_logger
+	gcc journal_logger.o $(LDFLAG) -o jlog
 
 journal_logger.o: $(SRC_DIR)/journal_logger.c
 	gcc $(CFLAGS) $(SRC_DIR)/journal_logger.c -o journal_logger.o
 
-clean: 
+clean:
 	rm -f journal_logger*

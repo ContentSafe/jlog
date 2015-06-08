@@ -28,5 +28,5 @@ Example
 =======
 
 ```
-$./journal_logger MESSAGE="Hello World" META1=mymeta META2=myothermeta
+$./jlog MESSAGE="Hello World" META1=mymeta META2=myothermeta
 ```

@@ -4,7 +4,8 @@
 
 int main(int argc, char *argv[]){
 	if (argc==1) {
-		printf("usage: journal_logger [FIELD]\n"
+		printf(
+			"usage: jlog [FIELDS...]\n"
 			"whereas a FIELD has to be valid journal meta format,\n"
 			"see http://www.freedesktop.org/software/systemd/man/systemd.journal-fields.html\n"
 			"example: journal_logger MESSAGE=\"Hello World\" META1=entry1\n");
