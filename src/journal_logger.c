@@ -25,6 +25,7 @@ int main(int argc, char *argv[]){
 	if (rc!=0){
 		perror("sd_journal_send");
 		printf("some error with the journal API occured\n");
+		return 1;
 	}
 	return 0;
 }
