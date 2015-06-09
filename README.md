@@ -1,4 +1,4 @@
-# journal_logger
+# jlog
 
 This is a simple logging tool which allows to directly log into systemds journal, without having to think about manual generation of the heavier metadata (e.g. cursor, real timestamps...). You can simply put valid fields into the logger and they will appear in journal accordingly.
 
