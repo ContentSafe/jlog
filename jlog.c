@@ -8,7 +8,7 @@ int main(int argc, char *argv[]){
 			"usage: jlog [FIELDS...]\n"
 			"whereas a FIELD has to be valid journal meta format,\n"
 			"see http://www.freedesktop.org/software/systemd/man/systemd.journal-fields.html\n"
-			"example: journal_logger MESSAGE=\"Hello World\" META1=entry1\n");
+			"example: jlog MESSAGE=\"Hello World\" META1=entry1\n");
 		return 1;
 	}
 	int rc;
